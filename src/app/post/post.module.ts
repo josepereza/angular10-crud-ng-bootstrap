@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 import { PostRoutingModule } from './post-routing.module';
 import { IndexComponent } from './index/index.component';
@@ -16,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     CommonModule,
     PostRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ]
 })
 export class PostModule { }
